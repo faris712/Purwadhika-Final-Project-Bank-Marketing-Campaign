@@ -21,6 +21,10 @@ edu_map = {0: 'Illiterate', 1: 'Basic 4y', 2: 'Basic 6y', 3: 'Basic 9y',
            4: 'High School', 5: 'Professional Course', 6: 'University Degree'
            }
 
+age_map = {
+    'Student_Age': 0, 'Young_Adult': 1, 'Adult': 2, 'Senior': 3
+}
+
 # --- UI SETUP ---
 st.title("🏦 Bank Marketing Campaign Prediction")
 st.write(f"Model Optimized Threshold: **{threshold}**")
