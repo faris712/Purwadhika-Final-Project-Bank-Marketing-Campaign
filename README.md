@@ -1,6 +1,7 @@
 # Portuguese Bank Term Deposit Prediction
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ecommerce-customer-churn-prediciton-finpro-beta.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jcdsi-02-02-alpha-final-project-bank-marketing-campaign.streamlit.app/)
+![Tableau](https://img.shields.io/badge/Visualisation-Tableau-blue)
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Library](https://img.shields.io/badge/Library-Scikit_Learn-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
