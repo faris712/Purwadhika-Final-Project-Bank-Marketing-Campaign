@@ -5,6 +5,7 @@
 ![Library](https://img.shields.io/badge/Library-Scikit_Learn-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
+
 **Final Project - Data Science & Machine Learning Program**
 **Institution:** Purwadhika Digital School
 **Group:**
@@ -76,7 +77,7 @@ The **LightGBM** with RandomOversampling Ratio of 0.5 was selected as the final 
 The final model has been deployed as an interactive web application using Streamlit to facilitate real-time prediction for business stakeholders.
 
 **Access the Application:**
-[https://ecommerce-customer-churn-prediciton-finpro-beta.streamlit.app/](https://ecommerce-customer-churn-prediciton-finpro-beta.streamlit.app/)
+[Streamlit - Bank Marketing Campaign Prediction](https://purwadhika-final-project-bank-marketing-campaign-ee637rmxquc2q.streamlit.app/)
 
 **Application Features:**
 * **Input Interface:** User-friendly sidebar for entering customer data.
@@ -94,39 +95,38 @@ In addition to the interactive web app, this project also features an interactiv
 
 1. **Executive Summary**: Key Performance Indicators (KPI) are displayed for Total Contacts, Subscribed count, Conversion Rate, and Calls Wasted count. There are also bar charts for Conversion Rate by Month and Job.
 2. **Marketing Summary**: Interactive heatmap to show which age or job is associated with conversion rate by contact, pOutcome, Campaign Intensity, and Month.
-3. **Data Science Summary**: Displays that the dataset is heavily imbalanced, how duration affect conversion rate, and visualizes conversion rate of age with economy_growing.
+3. **Data Science Summary**: Displays that the dataset is heavily imbalanced, how duration affect conversion rate, and visualizes conversion rate of age with growing economy status.
 
 By integrating the **Streamlit** prediction model with **Tableau** monitoring, the company possesses an end-to-end solution: the model predicts *who* is likely to leave, while the dashboard provides a deep understanding of *why* the phenomenon is occurring.
 
 ## Repository Structure
 
 ```text
-├── data/                            # Dataset files
-├── model/                           # Serialized model artifacts (.pkl)
-├── notebooks/                       # Jupyter notebooks for analysis
-├── app.py                           # Streamlit Application Source Code
+├── data/                            # Dataset files (Portuguese Bank Campaign)
+├── model/                           # Serialized LightGBM model (.pkl)
+├── notebooks/                       # EDA, Data Cleaning, and Model Training
+├── app.py                           # Streamlit Web Application
 ├── README.md                        # Project Documentation
-└── requirements.txt                 # Python dependencies
-
+└── requirements.txt                 # Python dependencies (pinned versions)
 ```
 
 ## Installation and Usage
 
 To replicate the analysis or run the application locally, follow these steps:
 
-1.  **Clone the Repository:**
+1. **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/ecommerce-customer-churn-prediciton-finpro.git](https://github.com/your-username/ecommerce-customer-churn-prediciton-finpro.git)
+   git clone [https://github.com/faris712/Purwadhika-Final-Project-Bank-Marketing-Campaign.git](https://github.com/faris712/Purwadhika-Final-Project-Bank-Marketing-Campaign.git)
     ```
 
 2.  **Install Dependencies:**
-    It is recommended to use a virtual environment. Install the required libraries using:
+    It is recommended to use a virtual environment (e.g., venv or Conda). Install the required libraries using:
     ```bash
     pip install -r requirements.txt
     ```
 
 3.  **Run the Analysis (Jupyter Notebook):**
-    To view the detailed data exploration and model training process:
+    To view the data cleaning, feature engineering, and LightGBM tuning:
     ```bash
     jupyter notebook
     ```
@@ -140,7 +140,8 @@ To replicate the analysis or run the application locally, follow these steps:
 ## Tools and Technologies
 
 - **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Scikit-Learn (v1.6.1), Imbalanced-Learn, XGBoost, Matplotlib, Seaborn
-- **Deployment:** Streamlit Cloud
+- **Visualization & BI**: Tableau
+- **Libraries:** Pandas, NumPy, Scikit-Learn (v1.6.1), Imbalanced-Learn, Matplotlib, Seaborn, LightGBM
+- **Deployment:** Streamlit Cloud, Tableau Public
 - **Model Serialization:** Pickle
 - **Editor:** Jupyter Notebook, Visual Studio Code
