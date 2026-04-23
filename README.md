@@ -89,7 +89,7 @@ The final model has been deployed as an interactive web application using Stream
 
 In addition to the interactive web app, this project also features an interactive dashboard in **Tableau** which was designed as a decision support tool for non-technical stakeholders.
 
-**Access Link:** [Tableau Public - Bank Marketing Campaign Dashboard](https://public.tableau.com/views/Final-Project_Bank-Marketing-CampaignLiefthaFaris/DataScienceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**Access Link:** [Tableau Public - Bank Marketing Campaign Dashboard](https://public.tableau.com/views/Final-Project_Bank-Marketing-CampaignLiefthaFaris/)
 
 ### Objectives and Key Features
 
