@@ -1,7 +1,7 @@
 # Portuguese Bank Term Deposit Prediction
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ecommerce-customer-churn-prediciton-finpro-beta.streamlit.app/)
-![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Library](https://img.shields.io/badge/Library-Scikit_Learn-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-green)
 
@@ -16,7 +16,7 @@
 
 ## Project Overview
 
-This dataset pertains to direct marketing campaigns (phone calls) conducted by a Portuguese banking institution. Often, more than one contact with the same client was required to determine if the product—a **bank term deposit**—would be subscribed to ('yes') or not ('no'). A term deposit is a financial instrument where a customer deposits a sum of money for a fixed period at a specific interest rate. For banks, these deposits are essential sources of liquidity, providing the necessary capital to issue loans to other customers.
+This project predicts the likelihood of a client subscribing to a bank term deposit based on the **Portuguese Banking Campaign** dataset. By leveraging **LightGBM** and social-economic indicators (Euribor, CPI), this tool helps banks optimize their marketing resources by identifying high-potential leads.
 
 This project utilizes the dataset to identify high-probability leads with rigorous data-driven approaches such as data cleaning, handling imbalanced data, hyperparameter tuning and threshold tuning.
 
@@ -77,7 +77,7 @@ The **LightGBM** with RandomOversampling Ratio of 0.5 was selected as the final 
 The final model has been deployed as an interactive web application using Streamlit to facilitate real-time prediction for business stakeholders.
 
 **Access the Application:**
-[Streamlit - Bank Marketing Campaign Prediction](https://purwadhika-final-project-bank-marketing-campaign-ee637rmxquc2q.streamlit.app/)
+[Streamlit - Bank Marketing Campaign Prediction](https://jcdsi-02-02-alpha-final-project-bank-marketing-campaign.streamlit.app/)
 
 **Application Features:**
 * **Input Interface:** User-friendly sidebar for entering customer data.
@@ -134,7 +134,7 @@ To replicate the analysis or run the application locally, follow these steps:
 4.  **Run the Web Application (Streamlit):**
     To launch the interactive prediction dashboard locally:
     ```bash
-    streamlit run app.py
+    streamlit run final_project_bank_app.py
     ```
 
 ## Tools and Technologies
